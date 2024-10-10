@@ -1,3 +1,27 @@
+# Netflix Clone
+
+Đây là một phiên bản clone của ứng dụng web Netflix, được xây dựng bằng các công nghệ web hiện đại như React, Node.js, và MongoDB. Ứng dụng này mô phỏng giao diện và trải nghiệm người dùng giống với Netflix, cho phép người dùng duyệt, tìm kiếm và xem phim và chương trình truyền hình.
+
+## Tính năng
+
+- **Xác thực người dùng**: Người dùng có thể đăng ký, đăng nhập và đăng xuất sử dụng xác thực JWT.
+- **Duyệt phim/chương trình truyền hình**: Người dùng có thể duyệt qua bộ sưu tập phim và chương trình truyền hình, được phân loại theo thể loại, với thông tin lấy từ API bên ngoài (ví dụ: TMDb).
+- **Trang chi tiết phim**: Xem thông tin chi tiết về một bộ phim hoặc chương trình truyền hình cụ thể, bao gồm trailer, diễn viên và tóm tắt nội dung.
+- **Thiết kế đáp ứng**: Ứng dụng được thiết kế hoàn toàn đáp ứng, hoạt động tốt trên mọi kích thước màn hình.
+- **Quản lý tài khoản**: Người dùng có thể xem và quản lý các cài đặt tài khoản của mình.
+- **Danh sách yêu thích**: Người dùng có thể thêm phim/chương trình truyền hình vào danh sách yêu thích để xem sau.
+- **Thông báo**: Biểu tượng chuông (BellIcon) hiển thị thông báo về các phim mới hoặc các bản phát hành mới.
+
+## Công nghệ sử dụng
+
+- **Front-end**: React.js, Tailwind CSS
+- **Back-end**: Node.js, Express.js
+- **Cơ sở dữ liệu**: MongoDB
+- **Xác thực**: JSON Web Tokens (JWT)
+- **API phim**: TMDb (The Movie Database)
+
+## Cài đặt và chạy ứng dụng
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
